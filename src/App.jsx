@@ -15,45 +15,75 @@ function App() {
 
   return (
     <div className="App">
+      
       <div class="menu-overlay d-none"></div>
 
       <div class="right-side d-none d-lg-block">
       <div id="date"></div>
-      <div class="social-box">
-        <div class="follow-label">
-          <span>Redes Sociales</span>
+        <div class="social-box">
+          <div class="follow-label">
+            <span>Redes Sociales</span>
+          </div>
+          <div class="social d-none d-lg-block">
+            <br />
+            <a href="#">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="javascript:void(0);">
+              <i class="bi bi-tiktok"></i>
+            </a>
+            <a href="javascript:void(0);">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="javascript:void(0);">
+              <i class="bi bi-code-square"></i>
+            </a>
+            <a href="javascript:void(0);">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="javascript:void(0);">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
         </div>
-        <div class="social d-none d-lg-block">
-          <br />
-          <a href="https://hola.cl">
-            <i class="bi bi-youtube"></i>
-          </a>
-          <a href="javascript:void(0);">
-            <i class="bi bi-tiktok"></i>
-          </a>
-          <a href="javascript:void(0);">
-            <i class="bi bi-github"></i>
-          </a>
-          <a href="javascript:void(0);">
-            <i class="bi bi-code-square"></i>
-          </a>
-          <a href="javascript:void(0);">
-            <i class="bi bi-linkedin"></i>
-          </a>
-          <a href="javascript:void(0);">
-            <i class="bi bi-whatsapp"></i>
-          </a>
+        <div class="next-prev-page">
+          <button type="button" class="prev-page bg-base-color hstack">
+            <i class="bi bi-chevron-compact-up mx-auto"></i>
+          </button>
+          <button type="button" class="next-page bg-base-color mt-3 hstack">
+            <i class="bi bi-chevron-compact-down mx-auto"></i>
+          </button>
         </div>
       </div>
-      <div class="next-prev-page">
-        <button type="button" class="prev-page bg-base-color hstack">
-          <i class="bi bi-chevron-compact-up mx-auto"></i>
-        </button>
-        <button type="button" class="next-page bg-base-color mt-3 hstack">
-          <i class="bi bi-chevron-compact-down mx-auto"></i>
-        </button>
+      <div class="left-side  nav-close">
+        <div class="menu-content-align">
+          <div class="left-side-image">
+            <img src={'../assets/img/webdesigner/alamiro_2019.jpg'} alt={''} />
+          </div>
+          <h1 class="mt-1">Alamiro Vera</h1>
+          <a class="download-cv primary-button d-none d-lg-inline-block" href="javascript:void(0);">Download CV</a>
+          <div class="container d-lg-none d-inline-block">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p class="text-muted mb-0">Ingeniero en Informatica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-align">
+          <ul class="list-group menu text-center " id="menu">
+            <li class="list-group-item">
+              <a href="#hero">
+                <i class="bi bi-house"></i>
+                <span>home</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        
       </div>
-    </div>
+
+    
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
