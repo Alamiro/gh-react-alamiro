@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-// import './App.css'
+import './App.css'
 import './assets/css/bootstrap.css'
 import './assets/css/bootstrap-icons.css'
 import './assets/css/jquery.mCustomScrollbar.css'
@@ -16,68 +16,99 @@ function App() {
   return (
     <div className="App">
       
-      <div class="menu-overlay d-none"></div>
+      <div className="menu-overlay d-none"></div>
 
-      <div class="right-side d-none d-lg-block">
+      <div className="right-side d-none d-lg-block">
       <div id="date"></div>
-        <div class="social-box">
-          <div class="follow-label">
+        <div className="social-box">
+          <div className="follow-label">
             <span>Redes Sociales</span>
           </div>
-          <div class="social d-none d-lg-block">
+          <div className="social d-none d-lg-block">
             <br />
-            <a href="#">
-              <i class="bi bi-youtube"></i>
+            <a href="javascript:void(0);">
+              <i className="bi bi-youtube"></i>
             </a>
             <a href="javascript:void(0);">
-              <i class="bi bi-tiktok"></i>
+              <i className="bi bi-tiktok"></i>
             </a>
             <a href="javascript:void(0);">
-              <i class="bi bi-github"></i>
+              <i className="bi bi-github"></i>
             </a>
             <a href="javascript:void(0);">
-              <i class="bi bi-code-square"></i>
+              <i className="bi bi-code-square"></i>
             </a>
             <a href="javascript:void(0);">
-              <i class="bi bi-linkedin"></i>
+              <i className="bi bi-linkedin"></i>
             </a>
             <a href="javascript:void(0);">
-              <i class="bi bi-whatsapp"></i>
+              <i className="bi bi-whatsapp"></i>
             </a>
           </div>
         </div>
-        <div class="next-prev-page">
-          <button type="button" class="prev-page bg-base-color hstack">
-            <i class="bi bi-chevron-compact-up mx-auto"></i>
+        <div className="next-prev-page">
+          <button type="button" className="prev-page bg-base-color hstack">
+            <i className="bi bi-chevron-compact-up mx-auto"></i>
           </button>
-          <button type="button" class="next-page bg-base-color mt-3 hstack">
-            <i class="bi bi-chevron-compact-down mx-auto"></i>
+          <button type="button" className="next-page bg-base-color mt-3 hstack">
+            <i className="bi bi-chevron-compact-down mx-auto"></i>
           </button>
         </div>
       </div>
-      <div class="left-side  nav-close">
-        <div class="menu-content-align">
-          <div class="left-side-image">
+      <div className="left-side  nav-close">
+        <div className="menu-content-align">
+          <div className="left-side-image">
             <img src={'../assets/img/webdesigner/alamiro_2019.jpg'} alt={''} />
           </div>
-          <h1 class="mt-1">Alamiro Vera</h1>
-          <a class="download-cv primary-button d-none d-lg-inline-block" href="javascript:void(0);">Download CV</a>
-          <div class="container d-lg-none d-inline-block">
-            <div class="row">
-              <div class="col-12 text-center">
-                <p class="text-muted mb-0">Ingeniero en Informatica</p>
+          <h1 className="mt-1">Alamiro Vera</h1>
+          <a className="download-cv primary-button d-none d-lg-inline-block" href="javascript:void(0);">Download CV</a>
+          <div className="container d-lg-none d-inline-block">
+            <div className="row">
+              <div className="col-12 text-center">
+                <p className="text-muted mb-0">Ingeniero en Informatica</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="menu-align">
-          <ul class="list-group menu text-center " id="menu">
-            <li class="list-group-item">
+        <div className="menu-align">
+          <ul className="list-group menu text-center " id="menu">
+            <li className="list-group-item">
               <a href="#hero">
-                <i class="bi bi-house"></i>
+                <i className="bi bi-house"></i>
                 <span>home</span>
               </a>
             </li>
+            <li className="list-group-item">
+            <a href="#about" className="custom-btn">
+              <i className="bi bi-person"></i>
+              <span>about</span>
+              </a>
+            </li>
+            <li className="list-group-item">
+            <a href="#resume">
+              <i className="bi bi-clipboard-check"></i>
+              <span>resume</span>
+            </a>
+          </li>
+          <li className="list-group-item">
+            <a href="#portfolio">
+              <i className="bi bi-collection"></i>
+              <span>works</span>
+            </a>
+          </li>
+          <li className="list-group-item">
+            <a href="#blog">
+              <i className="bi bi-book"></i>
+              <span>blog</span>
+            </a>
+          </li>
+          <li className="list-group-item">
+            <a href="#contact">
+              <i className="bi bi-geo-alt"></i>
+              <span>contact</span>
+            </a>
+          </li>
+
           </ul>
         </div>
         
@@ -87,7 +118,7 @@ function App() {
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img src="/vite.svg" classNameName="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
