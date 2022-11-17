@@ -110,7 +110,59 @@ function App() {
           </li>
 
           </ul>
+          <div className="menu-footer">
+          <a className="download-cv primary-button mt-3 mb-4 d-lg-none" href="javascript:void(0);">Download CV</a>
+          <div className="social d-lg-none d-block">
+            <a href="javascript:void(0);" class="d-inline-block">
+              <i className="bi bi-whatsapp"></i>
+            </a>
+            <a href="javascript:void(0);" class="d-inline-block mx-4">
+              <i className="bi bi-instagram"></i>
+            </a>
+            <a href="javascript:void(0);" class="d-inline-block">
+              <i className="bi bi-dribbble"></i>
+            </a>
+          </div>
         </div>
+        </div>
+        <main id="main" className="main-2">
+          <section id="hero" className="section hero w-100">
+            {/* "assets/img/responsive-dark.png" */}
+            <img className="extend-icon" src={'../assets/img/responsive-dark.png'} alt={''}>
+
+            </img>
+            <div className="hero-center">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12 text-center text-lg-start">
+                    <div className="hero-image d-inline-block d-lg-none">
+                    {/* "assets/img/webdesigner/profile-img.jpg" */}
+                      <img src={'../assets/img/webdesigner/profile-img.jpg'} alt={''}></img>
+                    </div>
+                    <div className="hero-content mt-4 mx-auto mx-lg-0 text-lg-left mt-lg-none">
+                      <p className="base-color">WEB DESIGNER</p>
+                      <h2>Hello , I’m <span className="base-color">Alamiro </span>Welcome to my World. </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="hero-footer d-block d-lg-none">
+              <a className="download-cv primary-button mt-3 mb-4 d-lg-none" href="javascript:void(0);">Download CV</a>
+              <div className="social d-lg-none mb-4 d-block">
+                <a href="javascript:void(0);" className="d-inline-block">
+                  <i className="bi bi-whatsapp"></i>
+                </a>
+                <a href="javascript:void(0);" className="d-inline-block mx-4">
+                  <i className="bi bi-instagram"></i>
+                </a>
+                <a href="javascript:void(0);" className="d-inline-block">
+                  <i className="bi bi-dribbble"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </main>
         
       </div>
 
